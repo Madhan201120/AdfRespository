@@ -1,0 +1,9 @@
+{
+	"name": "MadhanADFHandsOnLab",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "009fb44f-2ed1-49dc-a436-53ac72262509",
+		"tenantId": "fce4dc86-de5a-4e6d-b1a5-df807b8c5a62"
+	}
+}

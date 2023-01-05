@@ -1,0 +1,17 @@
+{
+	"name": "OnPremServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\adflabvm\\dataHandsOn",
+			"userId": "vmserver-1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwZjliYTE3Ny04MDY1LTQyODgtYmIxYi05NzJiNjI4YWVmZDIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "BigdataGatewayIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
