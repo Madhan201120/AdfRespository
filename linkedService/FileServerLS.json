@@ -1,0 +1,17 @@
+{
+	"name": "FileServerLS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "//adflabvm/Users/vmserver-1/Downloads/",
+			"userId": "vmserver-1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNDE0MzRjMS0yMDQ2LTRiYTQtYWJlZC01Yjg4YmI5OTllOGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "BigdataGatewayIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
