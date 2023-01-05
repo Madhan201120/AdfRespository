@@ -1,0 +1,17 @@
+{
+	"name": "JsonDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
