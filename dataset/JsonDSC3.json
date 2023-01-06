@@ -1,0 +1,17 @@
+{
+	"name": "JsonDSC3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
